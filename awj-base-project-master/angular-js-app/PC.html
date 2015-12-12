@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="blog">
 <head>
-  <title>Persoane</title>
+  <title>PC-uri</title>
   <link rel="stylesheet" media="all" href="css/bootstrap.min.css">
   <link rel="stylesheet" media="all" href="css/custom.css">
 </head>
@@ -44,17 +44,21 @@
 
   <!-- /resources1 -->
   <div class="container">
-    <h1>Persoane</h1>
+    <h1>PC-uri</h1>
     <h2>List all resources</h2>
     <table class="table table-bordered">
       <tr>
         <th>ID</th>
-        <th>Nume</th>
+        <th>Producator</th>
+        <th>Model</th>
+        <th>Procesor</th>
         <th style="width:210px;">Options</th>
       </tr>
       <tr>
         <td>1</td>
-        <td>Daniel Ioan</td>
+        <td>Lenovo</td>
+        <td>Yoga 2</td>
+        <td>Core i3 1.8 GHz</td>
         <td>
           <a href="">
             <span class="label label-success">
@@ -78,7 +82,9 @@
       </tr>
        <tr>
         <td>2</td>
-        <td>Alexandru Vlad</td>
+        <td>Sony</td>
+        <td>Vaio Flip</td>
+        <td>Core i5 2.55 GHz</td>
         <td>
           <a href="">
             <span class="label label-success">
@@ -102,7 +108,9 @@
       </tr>
        <tr>
         <td>3</td>
-        <td>Vlad Baran</td>
+        <td>Apple</td>
+        <td>MacBook Pro 15</td>
+        <td>Core i7 2.3 GHz</td>
         <td>
           <a href="">
             <span class="label label-success">
@@ -126,7 +134,9 @@
       </tr>
        <tr>
         <td>4</td>
-        <td>Arvinte Bogdan</td>
+        <td>HP</td>
+        <td>Envy</td>
+        <td>AMD Buldozer 4.2 GHz</td>
         <td>
           <a href="">
             <span class="label label-success">
@@ -186,24 +196,40 @@
 	            <!-- Modal Body -->
 	            <div class="modal-body">
 	                
-	                <form class="form-horizontal" role="form">
-	                  <div class="form-group">
-	                    <label  class="col-sm-2 control-label"
-	                              for="inputEmail3">ID</label>
-	                    <div class="col-sm-10">
-	                        <input type="text" class="form-control" 
-	                        id="inputEmail3" placeholder="id"/>
-	                    </div>
-	                  </div>
-	                  <div class="form-group">
-	                    <label class="col-sm-2 control-label"
-	                          for="inputPassword3" >Nume</label>
-	                    <div class="col-sm-10">
-	                        <input type="text" class="form-control"
-	                            id="inputPassword3" placeholder="Nume"/>
-	                    </div>
-	                  </div>
-	                </form>           
+	                 <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <label  class="col-sm-2 control-label"
+                                for="inputEmail3">ID</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control" 
+                          id="inputEmail3" placeholder="id"/>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-2 control-label"
+                            for="inputPassword3" >Producator</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control"
+                              id="inputPassword3" placeholder="Lenovo"/>
+                      </div>
+                    </div>
+                     <div class="form-group">
+                      <label class="col-sm-2 control-label"
+                            for="inputPassword3" >Model</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control"
+                              id="inputPassword3" placeholder="Yoga"/>
+                      </div>
+                    </div>
+                     <div class="form-group">
+                      <label class="col-sm-2 control-label"
+                            for="inputPassword3" >Procesor</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control"
+                              id="inputPassword3" placeholder="Ex: Core i3 1.9 GHz"/>
+                      </div>
+                    </div>
+                  </form>      
 	            </div>
 	            
 	            <!-- Modal Footer -->

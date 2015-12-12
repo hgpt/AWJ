@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="blog">
 <head>
-  <title>Persoane</title>
+  <title>Garaj</title>
   <link rel="stylesheet" media="all" href="css/bootstrap.min.css">
   <link rel="stylesheet" media="all" href="css/custom.css">
 </head>
@@ -44,17 +44,21 @@
 
   <!-- /resources1 -->
   <div class="container">
-    <h1>Persoane</h1>
+    <h1>Masini</h1>
     <h2>List all resources</h2>
     <table class="table table-bordered">
       <tr>
         <th>ID</th>
-        <th>Nume</th>
+        <th>Producator</th>
+        <th>Model</th>
+        <th>Putere</th>
         <th style="width:210px;">Options</th>
       </tr>
       <tr>
         <td>1</td>
-        <td>Daniel Ioan</td>
+        <td>Tesla</td>
+        <td>Model X</td>
+        <td>345kW</td>
         <td>
           <a href="">
             <span class="label label-success">
@@ -78,7 +82,9 @@
       </tr>
        <tr>
         <td>2</td>
-        <td>Alexandru Vlad</td>
+        <td>Tesla</td>
+        <td>Model S</td>
+        <td>436kW</td>
         <td>
           <a href="">
             <span class="label label-success">
@@ -102,7 +108,9 @@
       </tr>
        <tr>
         <td>3</td>
-        <td>Vlad Baran</td>
+        <td>Range Rover</td>
+        <td>Discovery</td>
+        <td>224kW</td>
         <td>
           <a href="">
             <span class="label label-success">
@@ -126,7 +134,9 @@
       </tr>
        <tr>
         <td>4</td>
-        <td>Arvinte Bogdan</td>
+        <td>Dacia</td>
+        <td>Logan</td>
+        <td>57kW</td>
         <td>
           <a href="">
             <span class="label label-success">
@@ -187,23 +197,39 @@
 	            <div class="modal-body">
 	                
 	                <form class="form-horizontal" role="form">
-	                  <div class="form-group">
-	                    <label  class="col-sm-2 control-label"
-	                              for="inputEmail3">ID</label>
-	                    <div class="col-sm-10">
-	                        <input type="text" class="form-control" 
-	                        id="inputEmail3" placeholder="id"/>
-	                    </div>
-	                  </div>
-	                  <div class="form-group">
-	                    <label class="col-sm-2 control-label"
-	                          for="inputPassword3" >Nume</label>
-	                    <div class="col-sm-10">
-	                        <input type="text" class="form-control"
-	                            id="inputPassword3" placeholder="Nume"/>
-	                    </div>
-	                  </div>
-	                </form>           
+                    <div class="form-group">
+                      <label  class="col-sm-2 control-label"
+                                for="inputEmail3">ID</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control" 
+                          id="inputEmail3" placeholder="id"/>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-2 control-label"
+                            for="inputPassword3" >Producator</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control"
+                              id="inputPassword3" placeholder="Producator"/>
+                      </div>
+                    </div>
+                     <div class="form-group">
+                      <label class="col-sm-2 control-label"
+                            for="inputPassword3" >Model</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control"
+                              id="inputPassword3" placeholder="Model"/>
+                      </div>
+                    </div>
+                     <div class="form-group">
+                      <label class="col-sm-2 control-label"
+                            for="inputPassword3" >Putere</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control"
+                              id="inputPassword3" placeholder="Ex: 314kW"/>
+                      </div>
+                    </div>
+                  </form>        
 	            </div>
 	            
 	            <!-- Modal Footer -->
